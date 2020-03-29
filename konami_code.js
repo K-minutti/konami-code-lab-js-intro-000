@@ -25,9 +25,8 @@ document.body.addEventListener("keydown", (event) => {
 
     if (index === codes.length) {
       alert("Cool!");
-      index = 0;
-    }
-  }
-  }
-);
+      index = 0;}
+   } else {
+     index = 0;}
+ });
 }
