@@ -17,7 +17,7 @@ const codes = [
 
 function init() {
 document.body.addEventListener("keydown", (event) => {
-  if (event.key === codes) {
+  if (event.key == codes) {
      alert("Hurray!");
   }
 );
